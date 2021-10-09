@@ -1,5 +1,8 @@
 # HacktoberFest_2021_Kotlin_Apps
 Some good first issue kotlin apps
+1. First app is a simple Dice rolling App
+2. Second app is a basic Todo List App
+3. Third app is a Weather App
 
 ## How to contribute?
 
