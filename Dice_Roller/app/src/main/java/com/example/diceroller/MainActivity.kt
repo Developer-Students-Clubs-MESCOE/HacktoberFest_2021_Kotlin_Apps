@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         val rollButton: Button = findViewById(R.id.button)
         rollButton.setOnClickListener { rollDice() }
+
+        rollDice()  //added this so an example is seen when the app starts
     }
     private fun rollDice(){
         val dice = Dice(6)
