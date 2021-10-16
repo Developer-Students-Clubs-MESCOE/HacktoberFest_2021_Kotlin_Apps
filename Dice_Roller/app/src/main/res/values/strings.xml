@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Dice Roller</string>
-    <string name="roll">Roll</string>
+    <string name="app_name" translatable="false">Dice Roller</string>
+    <string name="Roll">Roll</string>
+    <string name="roll" translatable="false">Roll</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="click_the_roll_button_to_roll_the_dice">Click the roll button to roll the dice!!!</string>
 </resources>

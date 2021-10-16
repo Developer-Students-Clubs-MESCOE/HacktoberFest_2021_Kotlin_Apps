@@ -6,15 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+
+        <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/roll"
+        app:backgroundTint="@android:color/holo_red_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            app:iconTint="@color/white"
+            app:cornerRadius="15dp"
+            android:textColor="@color/white"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -26,6 +37,25 @@
         app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/dice_1" />
+        tools:srcCompat="@drawable/dice_1"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_the_roll_button_to_roll_the_dice"
+        android:textColor="#FA0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
